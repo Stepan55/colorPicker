@@ -28,16 +28,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="jCK-V7-2sv">
                                 <rect key="frame" x="71" y="346" width="327" height="132"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.050000000745058101" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ua6-HR-fuG">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ua6-HR-fuG">
                                         <rect key="frame" x="-2" y="0.0" width="331" height="31"/>
                                     </slider>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="X7Z-MF-kXu">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="X7Z-MF-kXu">
                                         <rect key="frame" x="-2" y="51" width="331" height="31"/>
                                         <connections>
                                             <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="a1Z-UP-Bgk"/>
                                         </connections>
                                     </slider>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uhv-bh-KgU">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uhv-bh-KgU">
                                         <rect key="frame" x="-2" y="102" width="331" height="31"/>
                                     </slider>
                                 </subviews>
